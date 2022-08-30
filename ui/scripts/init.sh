@@ -16,7 +16,7 @@ AWSCLOUDFORMATIONCONFIG="{\
 \"region\":\"us-east-1\"\
 }"
 AMPLIFY="{\
-\"projectName\":\"billingappui\",\
+\"projectName\":\"securestoreui\",\
 \"envName\":\"dev\",\
 \"defaultEditor\":\"code\"\
 }"
