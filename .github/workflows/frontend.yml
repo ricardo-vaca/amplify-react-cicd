@@ -7,7 +7,7 @@ on:
       - 'ui/**'
 
 jobs:
-  CI:
+  ci:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -44,7 +44,7 @@ jobs:
           path: ./build
 
   CD:
-    needs: CI
+    needs: ci
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
