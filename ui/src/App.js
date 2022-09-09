@@ -1,5 +1,7 @@
 function App() {
-  return <div className="App">Hello World (4): {process.env.REACT_APP_TEST}</div>
+  return (
+    <div className="App">Hello World (5): {process.env.REACT_APP_TEST}</div>
+  );
 }
 
-export default App
+export default App;

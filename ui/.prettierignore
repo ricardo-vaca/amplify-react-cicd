@@ -1,0 +1,6 @@
+node_modules
+build
+scripts
+public
+amplify
+aws-exports.js
