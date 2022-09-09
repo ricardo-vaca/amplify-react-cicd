@@ -44,7 +44,7 @@ jobs:
           path: ./build
 
   CD:
-    needs: ci
+    needs: CI
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
